@@ -1,0 +1,149 @@
+header img{
+  padding:1px;
+  width: auto;
+  height: auto;
+}
+
+/*language*/
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: left;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #00004d;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  /* right: 0; */
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #555;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+/*------------------------------------------------------------------------------------------*/
+
+/*menu*/
+ul.A {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 70px;
+  background-color: #e6e6e6;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:lightgrey;
+}
+
+li.b {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0;
+  text-decoration: none;
+}
+
+img{
+  width: 400px;
+  height: 400px;
+  padding: 25px;
+}
+
+iframe{
+  padding: 25px;
+}
+
+.column{
+  float: left;
+  width: 33.33%
+  padding: 25px;
+}
+
+.row::after{
+  content: "";
+  clear:both;
+  display: table;
+}
+h1, h3, h6{
+  padding: 10px;
+}
+
+body{
+  margin: 0px;
+}
+
+footer{
+  clear: both;
+  background-color: white;
+  color: darkgrey;
+  padding: 0;
+  position: relative;
+  height: auto;
+}
+
+footer img{
+  float: right;
+  width: auto;
+  height: auto;
+}
+
+.blackbar{
+  background-color: #555;
+}
+
+.paddingForFooter{
+  padding: 30px;
+}

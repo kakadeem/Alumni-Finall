@@ -1,0 +1,70 @@
+#Pic1{
+  width: 90%;
+}
+
+#Pic2{
+  width:90%;
+}
+
+#Pic3{
+  width:90%;
+}
+
+
+.paddingForImg{
+padding-top: 100px;
+  max-height:none;
+  max-width:none;
+}
+
+p{
+  text-align: justify;
+width:400px;
+margin-left: 100px;
+}
+.paddingFirstPar{
+  padding-top:100px;
+}
+
+.specialForImg{
+  padding-top: 50px;
+  max-height: 500px;
+  max-width: 500px;
+}
+
+.specialForWords{
+  padding-top: 40px;
+}
+
+.title{
+  font-size: 30px;
+  text-align: left;
+  width:500px
+}
+
+footer{
+  clear: both;
+  background-color: white;
+  color: grey;
+  padding: 0;
+  position: relative;
+  height: auto;
+}
+
+footer img{
+  float: right;
+  width: auto;
+  height: auto;
+}
+
+.blackbar{
+  background-color: #555;
+}
+
+.paddingForFooter{
+  padding: 30px;
+}
+
+footer h3{
+  padding: 10px;
+}

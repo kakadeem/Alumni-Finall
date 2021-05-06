@@ -1,0 +1,60 @@
+*{
+margin: 0
+padding:0;
+}
+
+.boxs{
+  margin: 20px;
+}
+
+.paddingForWords{
+  padding-top: 50px;
+}
+
+
+
+video{
+  width:700PX;
+  margin: 35px;
+}
+
+.img-Map{
+  width:300px;
+  margin: 50px;
+}
+
+.img-responsive{
+  width:inherit;
+  height:inherit;
+  margin:inherit;
+}
+.body{
+  margin: 0px;
+}
+
+footer{
+  clear: both;
+  background-color: white;
+  color: grey;
+  padding: 0;
+  position: relative;
+  height: auto;
+}
+
+footer img{
+  float: right;
+  width: auto;
+  height: auto;
+}
+
+.blackbar{
+  background-color: #555;
+}
+
+.paddingForFooter{
+  padding: 30px;
+}
+
+footer h3{
+  padding: 10px;
+}

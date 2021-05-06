@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!--My css-->
+  <link href="JoinUsCss/joinCss.css" rel="stylesheet" type="text/css">
+  <link href="ShareCss/latestNews.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+  <header>
+    <a href="https://www.uowchk.edu.hk/">
+      <img src="3latestNews/uowchk.png" alt="logo">
+    </a>
+    <!--MENU-->
+  </header>
+  <div class="dropdown" float: left>
+    <button class="language" float: left>Language</button>
+    <div class="dropdown-content">
+      <a class="繁p15h3" href="繁p15h3.html">繁</a>
+      <a class="簡p15h3" href="簡p15h3.html">簡</a>
+      <a class="engp15h3" href="latestNews.html">Eng</a>
+    </div>
+  </div>
+  <nav>
+    <ul class="A">
+      <li class="b"><input type="text" placeholder="Search"></li>
+
+    </ul>
+  </nav>
+  <nav>
+    <ul>
+      <li><a class="active" href="homepage.html">Home</a></li>
+      <li><a href="ourAlumni.html">Our Alumni</a></li>
+      <li><a href="latestNews.html">Latest News</a></li>
+      <li><a href="eANDg.html">Events & Gallery</a></li>
+      <li><a href="givingClub.html">Giving Club</a></li>
+      <li><a href="joinUs.html">Join us!</a></li>
+    </ul>
+  </nav>
+  <!--End Menu-->
+  <div class="container">
+    <br><br>
+    <h2>Application of Alumni</h2><br><br>
+    <form action="/action_page.php">
+      <!-- First Section -->
+      <div class="form-group">
+        <p>Personal Information</p>
+        <label for="Name">Full name:</label>
+        <input type="name" class="form-control" id="Full name" placeholder="Enter full name" name="name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+      <div class="form-group">
+        <label for="PhoneNum">Phone Number:</label>
+        <input type="PhoneNum" class="form-control" id="PhoneNum" placeholder="Enter Phone Number" name="phoneNum">
+      </div><br><br>
+      <!--Second Section-->
+      <p>Your Study Days</p>
+      <div class="form-group">
+        <label for="Year">Year of Graduation:</label>
+        <input type="Year" class="form-control" id="Year" placeholder="Enter year of graduation" name="Year">
+      </div>
+      <div class="form-group">
+        <label for="programme">Programme(E.g FST):</label>
+        <input type="programme" class="form-control" id="programme" placeholder="Enter programme name" name="programme">
+      </div><br><br>
+      <!-- Third Section-->
+      <p>Login Information</p>
+      <div class="form-group">
+        <label for="ID">Student ID:</label>
+        <input type="ID" class="form-control" id="ID" placeholder="Enter your student ID" name="ID">
+      </div>
+      <div class="form-group">
+        <label for="pw">Password(6-10words):</label>
+        <input type="pw" class="form-control" id="pw" placeholder="Enter password (You must remenber it.)" name="pw">
+      </div>
+      <div class="form-group">
+        <label for="Remarks">Remarks:</label>
+        <input type="remarks" class="form-control" id="remarks" placeholder="If no, please do not type it..." name="remarks">
+      </div>
+
+      <button type="button" class="btn btn-light"><a href="ok.html">Submit</a></button><br><br>
+    </form>
+  </div>
+
+</body>
+
+<footer>
+  <div class="blackbar"></div>
+  <div class="paddingForFooter">
+    <a href="https://www.uowchk.edu.hk/%22%3E">
+      <img src="2OurAlumni/img/uowchk.png" alt="uowchk logo" /></a>
+    <div style="border-top:1px dashed #cccccc;height: 1px;"></div>
+    <p>Faculty of Science and Technology</p>
+    <p>Main campus:<br>Room FW-402, 4th Floor, Festival Walk Tower, 80 Tat Chee Avenue, Kowloon Tong</p>
+    <p>Kowloon Bay Campus:<br>G/F Telford Plaza, 33 Wai Yip Street, Kowloon Bay</p>
+    <p>Tel: (852) 3442-8763 <br>Fax: (852) 3442-0519 <br>E-mail: uowchk-fst@uow.edu.au</p>
+  </div>
+</footer>
+
+</html>
